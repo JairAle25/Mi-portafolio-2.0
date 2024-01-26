@@ -1,4 +1,6 @@
 ---
+import Button from "./Button.astro"
+
 const Links = [
     {
         name:"Inicio",
@@ -28,6 +30,6 @@ const Links = [
         {Links.slice(0, -1).map(link=><a href={link.link} class="transition-all hover:text-slate-300">{link.name}</a>)}
     </nav>
     <div>
-        <a href={Links[Links.length - 1].link} class="bg-[var(--colorPrincipal)] px-4 py-2 rounded-lg transition-all duration-500 hover:bg-[var(--hoverColorPrincipal)]">{Links[Links.length - 1].name}</a>
+        <Button text={Links[Links.length - 1].name} link={Links[Links.length - 1].link}></Button>
     </div>
 </header>
