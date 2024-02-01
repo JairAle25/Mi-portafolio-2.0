@@ -3,82 +3,74 @@ import ItemTechnologies from "./ItemTechnologies.astro"
 
 const technologies = [
     {
+        id:1,
         url:"/iconosTecnologias/Html.webp",
         name:"HTML"
     },
     {
+        id:2,
         url:"/iconosTecnologias/CSS.webp",
         name:"CSS"
     },
     {
+        id:3,
         url:"/iconosTecnologias/JavaScript.webp",
         name:"Javascript"
     },
     {
+        id:4,
         url:"/iconosTecnologias/React.webp",
         name:"React"
     },
     {
+        id:5,
         url:"/iconosTecnologias/astro.webp",
         name:"Astro"
     },
     {
+        id:6,
         url:"/iconosTecnologias/Tailwind.webp",
         name:"Tailwind CSS"
     },
     {
+        id:7,
         url:"/iconosTecnologias/Bootstrap.webp",
         name:"Bootstrap"
     },
     {
+        id:8,
         url:"/iconosTecnologias/MySQL.webp",
         name:"MySql"
     },
     {
+        id:9,
         url:"/iconosTecnologias/Java.webp",
         name:"Java"
     },
     {
+        id:10,
         url:"/iconosTecnologias/csharp.webp",
         name:"C#"
     },
     {
+        id:11,
         url:"/iconosTecnologias/net.webp",
         name:".Net"
     },
     {
+        id:12,
         url:"/iconosTecnologias/cmas.webp",
         name:"C++"
     }
 ]
 ---
 
-<section class="mt-56 my-0 mx-auto w-[65%]">
+<section class="mt-56 my-0 mx-auto w-[65%] scrollLink" id="technologies">
     <h1 class="font-bold text-4xl pb-10"><i class="bi bi-mouse2-fill"></i> Tecnologias</h1>
-    <div class="overflow-x-auto scrollItem">
-        <div class="flex justify-start items-center">
-            {technologies.map(tech => <ItemTechnologies url={tech.url} name={tech.name}/>)}
-        </div>
+    <div class="grid grid-cols-4 gap-4 place-items-center">
+        {technologies.map(tech => (
+            <ItemTechnologies key={tech.id} url={tech.url} name={tech.name} />
+        ))}
     </div>
 </section>
 
-
-
-
-<style>
-    
-    .scrollItem::-webkit-scrollbar {
-        width: 10px;
-        height: 13px;
-    }
-    .scrollItem::-webkit-scrollbar-thumb {
-        background-color: var(--colorPrincipal);
-        border-radius: 5px;
-    }
-        
-    .scrollItem::-webkit-scrollbar-track {
-        background-color: black;
-        border-radius: 5px;
-    }
-
-</style>
