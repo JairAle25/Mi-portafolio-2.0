@@ -1,0 +1,64 @@
+const TagsTech ={
+    HTML:{
+        name:"HTML",
+        url:"/iconosTecnologias/Html.webp",
+        className:""
+    },
+    CSS:{
+        name:"CSS",
+        url:"/iconosTecnologias/CSS.webp",
+        className:""
+    },
+    JAVASCRIPT:{
+        name:"Javascript",
+        url:"/iconosTecnologias/JavaScript.webp",
+        className:""
+    },
+    REACT:{
+        name:"React",
+        url:"/iconosTecnologias/React.webp",
+        className:""
+    },
+    ASTRO:{
+        name:"Astro",
+        url:"/iconosTecnologias/astro.webp",
+        className:""
+    },
+    TAILWIND:{
+        name:"Tailwind CSS",
+        url:"/iconosTecnologias/Tailwind.webp",
+        className:""
+    },
+    BOOTSTRAP:{
+        name:"Bootstrap",
+        url:"/iconosTecnologias/Bootstrap.webp",
+        className:""
+    },
+    MYSQL:{
+        name:"MySql",
+        url:"/iconosTecnologias/MySQL.webp",
+        className:""
+    },
+    JAVA:{
+        name:"Java",
+        url:"/iconosTecnologias/Java.webp",
+        className:""
+    },
+    CSHARP:{
+        name:"C#",
+        url:"/iconosTecnologias/csharp.webp",
+        className:""
+    },
+    NET:{
+        name:".Net",
+        url:"/iconosTecnologias/net.webp",
+        className:""
+    },
+    CMAS:{
+        name:"C++",
+        url:"/iconosTecnologias/cmas.webp",
+        className:""
+    }
+}
+
+export default TagsTech;
