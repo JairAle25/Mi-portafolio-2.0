@@ -7,7 +7,7 @@ import ItemProyects from "./ItemProyects.astro"
     <h1 class="font-bold text-4xl pb-10"><i class="bi bi-briefcase-fill"></i> Proyectos</h1>
     <div class="overflow-x-auto scrollItem">
         <div class="flex justify-start gap-9 pb-6">
-            {proyects.map(proy => <ItemProyects title={proy.title} description={proy.description} tags={proy.technologies} urlImage={proy.urlImage}/>)}
+            {proyects.map(proy => <ItemProyects title={proy.title} description={proy.description} tags={proy.technologies} urlImage={proy.urlImage} linkPagina={proy.linkPagina} linkRepo={proy.linkRepositorio}/>)}
         </div>
     </div>
 </section>
