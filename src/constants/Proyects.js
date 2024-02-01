@@ -6,7 +6,43 @@ const proyects = [
         description:"lorem asdasjdkahsdkhasjdh sdhaksdhajksh dajshdajshdjah kshdajkshdjahs jdhadhajkdhajkshdadhajksdhajs sjdhajsdhajkshdkajsh sdhak",
         urlImage:"/ProyectsImages/portafolio.webp",
         technologies:[TagsTech.ASTRO,TagsTech.TAILWIND]
-    }
+    },
+    {
+        title:"Mi Portafolio",
+        description:"lorem asdasjdkahsdkhasjdh sdhaksdhajksh dajshdajshdjah kshdajkshdjahs jdhadhajkdhajkshdadhajksdhajs sjdhajsdhajkshdkajsh sdhak",
+        urlImage:"/ProyectsImages/portafolio.webp",
+        technologies:[TagsTech.ASTRO,TagsTech.TAILWIND]
+    },
+    {
+        title:"Mi Portafolio",
+        description:"lorem asdasjdkahsdkhasjdh sdhaksdhajksh dajshdajshdjah kshdajkshdjahs jdhadhajkdhajkshdadhajksdhajs sjdhajsdhajkshdkajsh sdhak",
+        urlImage:"/ProyectsImages/portafolio.webp",
+        technologies:[TagsTech.ASTRO,TagsTech.TAILWIND]
+    },
+    {
+        title:"Mi Portafolio",
+        description:"lorem asdasjdkahsdkhasjdh sdhaksdhajksh dajshdajshdjah kshdajkshdjahs jdhadhajkdhajkshdadhajksdhajs sjdhajsdhajkshdkajsh sdhak",
+        urlImage:"/ProyectsImages/portafolio.webp",
+        technologies:[TagsTech.ASTRO,TagsTech.TAILWIND]
+    },
+    {
+        title:"Mi Portafolio",
+        description:"lorem asdasjdkahsdkhasjdh sdhaksdhajksh dajshdajshdjah kshdajkshdjahs jdhadhajkdhajkshdadhajksdhajs sjdhajsdhajkshdkajsh sdhak",
+        urlImage:"/ProyectsImages/portafolio.webp",
+        technologies:[TagsTech.ASTRO,TagsTech.TAILWIND]
+    },
+    {
+        title:"Mi Portafolio",
+        description:"lorem asdasjdkahsdkhasjdh sdhaksdhajksh dajshdajshdjah kshdajkshdjahs jdhadhajkdhajkshdadhajksdhajs sjdhajsdhajkshdkajsh sdhak",
+        urlImage:"/ProyectsImages/portafolio.webp",
+        technologies:[TagsTech.ASTRO,TagsTech.TAILWIND]
+    },
+    {
+        title:"Mi Portafolio",
+        description:"lorem asdasjdkahsdkhasjdh sdhaksdhajksh dajshdajshdjah kshdajkshdjahs jdhadhajkdhajkshdadhajksdhajs sjdhajsdhajkshdkajsh sdhak",
+        urlImage:"/ProyectsImages/portafolio.webp",
+        technologies:[TagsTech.ASTRO,TagsTech.TAILWIND]
+    },
 ]
 
 export default proyects;

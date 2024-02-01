@@ -2,8 +2,8 @@
 const {className,url,name} = Astro.props
 ---
 
-<div class=`${className} flex justify-start items-center gap-1`>
-    <img src={url} alt="" class="w-[11%] ">
-    <p>{name}</p>
+<div class=`flex justify-center items-center gap-1 ${className} rounded-lg`>
+    <img src={url} alt="" class="w-[12%]">
+    <p class="font-semibold">{name}</p>
 </div>
 

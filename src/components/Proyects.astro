@@ -3,11 +3,28 @@ import proyects from "../constants/Proyects.js"
 import ItemProyects from "./ItemProyects.astro"
 ---
 
-<section class="mt-56 my-0 mx-auto w-[65%] scrollLink" id="proyectos">
+<section class="mt-56 my-0 mx-auto w-[60%] scrollLink" id="proyectos">
     <h1 class="font-bold text-4xl pb-10"><i class="bi bi-briefcase-fill"></i> Proyectos</h1>
-    <div class="overflow-x-auto">
-        <div class="flex justify-start items-center">
+    <div class="overflow-x-auto scrollItem">
+        <div class="flex justify-start items-center gap-9 pb-6">
             {proyects.map(proy => <ItemProyects title={proy.title} description={proy.description} tags={proy.technologies} urlImage={proy.urlImage}/>)}
         </div>
     </div>
 </section>
+
+<style>
+    .scrollItem::-webkit-scrollbar {
+        width: 10px;
+        height: 13px;
+        margin-top: 2rem;
+    }
+    .scrollItem::-webkit-scrollbar-thumb {
+        background-color: var(--colorPrincipal);
+        border-radius: 5px; 
+    }
+
+    .scrollItem::-webkit-scrollbar-track {
+        background-color: black;
+        border-radius: 5px;
+    }
+</style>

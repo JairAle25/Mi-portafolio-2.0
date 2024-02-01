@@ -22,12 +22,12 @@ const TagsTech ={
     ASTRO:{
         name:"Astro",
         url:"/iconosTecnologias/astro.webp",
-        className:""
+        className:"bg-[#b08e6b] text-black"
     },
     TAILWIND:{
         name:"Tailwind CSS",
         url:"/iconosTecnologias/Tailwind.webp",
-        className:""
+        className:"bg-[#14485f]"
     },
     BOOTSTRAP:{
         name:"Bootstrap",
