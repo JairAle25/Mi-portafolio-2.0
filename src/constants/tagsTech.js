@@ -2,30 +2,30 @@ const TagsTech ={
     HTML:{
         name:"HTML",
         url:"/iconosTecnologias/Html.webp",
-        className:""
+        className:"bg-[#4f1e0d]"
     },
     CSS:{
         name:"CSS",
         url:"/iconosTecnologias/CSS.webp",
-        className:""
+        className:"bg-[#0b1848]"
     },
     JAVASCRIPT:{
         name:"Javascript",
         url:"/iconosTecnologias/JavaScript.webp",
-        className:""
+        className:"bg-[#a39535] text-black"
     },
     REACT:{
         name:"React",
         url:"/iconosTecnologias/React.webp",
-        className:""
+        className:"bg-[#0c1c20]"
     },
     ASTRO:{
         name:"Astro",
         url:"/iconosTecnologias/astro.webp",
-        className:"bg-[#b08e6b] text-black"
+        className:"bg-[#63503c] text-black"
     },
     TAILWIND:{
-        name:"Tailwind CSS",
+        name:"Tailwind",
         url:"/iconosTecnologias/Tailwind.webp",
         className:"bg-[#14485f]"
     },
