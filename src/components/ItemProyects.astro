@@ -1,6 +1,7 @@
 ---
 import Pill from "./Pill.astro";
 const {title,description,tags,urlImage,linkPagina,linkRepo} = Astro.props;
+const classNameLinks = "border border-gray-500 rounded-xl px-3 py-1 transition-all duration-2 hover:bg-[#181818]"
 ---
 
 <div class="flex flex-col w-[65%] min-w-[65%]">
@@ -11,7 +12,7 @@ const {title,description,tags,urlImage,linkPagina,linkRepo} = Astro.props;
     </div>
     <img src={urlImage} alt="" class="rounded-lg">
     <div class="flex justify-center items-center gap-4 mt-3">
-        <a href={linkRepo} class="border border-gray-500 rounded-xl px-3 py-1" target="_blank"><i class="bi bi-github"></i> Repositorio</a>
-        <a href={linkPagina} class="border border-gray-500 rounded-xl px-3 py-1" target="_blank"><i class="bi bi-browser-firefox text-[#ce6b28]"></i> Pagina</a>
+        <a href={linkRepo} class={classNameLinks} target="_blank"><i class="bi bi-github"></i> Repositorio</a>
+        <a href={linkPagina} class={classNameLinks} target="_blank"><i class="bi bi-browser-firefox text-[#ce6b28]"></i> Pagina</a>
     </div>
 </div>
