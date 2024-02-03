@@ -22,7 +22,7 @@ const Links = [
     },
     {
         name:"Contáctame",
-        link:""
+        link:"#contacto"
     }
 ]
 export default Links;
