@@ -1,5 +1,6 @@
 ---
 import Button from "./Button.astro"
+const classLinksRedes = " border border-gray-400 rounded-lg py-1 px-4 text-base font-semibold transition-all duration-300";
 ---
 
 <section class="flex flex-col justify-center items-center h-screen text-center" id="hero">
@@ -8,7 +9,7 @@ import Button from "./Button.astro"
 
         <p class="bg-gradient-to-r from-[#6a70f3] to-[#232540] w-52 py-1 my-0 mx-auto rounded-lg text-base  transition-all hover:font-bold hover:w-56">Disponible para trabajar</p>
 
-        <p class="text-xl pt-4 pb-10">Desarrollador web . De Buenos Aires, <br> Argentina . Especializado en crear apliaciones <br> unicas y elegantes</p>
+        <p class="text-xl pt-4 pb-6">Desarrollador web . De Buenos Aires, <br> Argentina . Especializado en crear apliaciones <br> unicas y elegantes</p>
 
         <nav class="flex gap-4 justify-center items-center my-0">
 
@@ -17,5 +18,11 @@ import Button from "./Button.astro"
             <a href="/public/Jair_Cornejo_CV.pdf" download="Jair Cornejo CV" target="_blank" class="flex gap-2 rounded-lg border px-4 py-2 text-lg transition-all hover:text-slate-300"><i class="bi bi-download"></i>Descargar CV</a>
 
         </nav>
+
+        <div class="flex justify-center items-center gap-5 mt-8">
+            <a href="https://www.linkedin.com/in/jaircornejo25/" class=` ${classLinksRedes}  hover:bg-[#0b63bd] hover:text-black`><i class=`bi bi-linkedin`> Linkedin</i></a>
+            <a href="https://github.com/JairAle25" class=`${classLinksRedes} hover:bg-white hover:text-black`><i class=`bi bi-github`> Github</i></a>
+            <a href="mailto:jaircornejo61@gmail.com" class=`${classLinksRedes} hover:bg-[#f04235] hover:text-black`><i class=`bi bi-envelope-plus-fill`> jaircornejo61@gmail.com</i></a>
+        </div>
     </div>
 </section>
