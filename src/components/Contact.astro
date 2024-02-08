@@ -11,7 +11,7 @@ const classInput ="my-4 py-3 pl-3 text-lg rounded-lg outline-none border bg-tran
     formContact.addEventListener('submit', function(e){
         e.preventDefault();
 
-        const button = document.getElementById('btnEnviar') as HTMLButtonElement; // Realizar el casting a HTMLButtonElement
+        const button = document.getElementById('btnEnviar') as HTMLButtonElement;
         button.disabled = true;
 
         const data = new FormData(formContact);
