@@ -3,7 +3,7 @@ import Button from "./Button.astro"
 import Links from "../constants/LinksHeader.js"
 ---
 
-<header class="flex justify-center items-center py-6 text-lg top-0 left-0 fixed w-screen">
+<header class="flex justify-center items-center py-6 text-lg" id="inicio">
     <nav class="flex gap-10 items-center">
         {Links.slice(0, -1).map(link=><a href={link.link} class="transition-all hover:text-slate-300">{link.name}</a>)}
         <Button text={Links[Links.length - 1].name} link={Links[Links.length - 1].link}></Button>

@@ -6,15 +6,19 @@ import Experience from '../components/Experience.astro';
 import Technologies from '../components/Technologies.astro';
 import Proyects from '../components/Proyects.astro';
 import Contact from "../components/Contact.astro"
+import Footer from "../components/Footer.astro"
 ---
 
 <Layout title="Portafolio de Jair - Desarrollador y Programador Web">
 	<main>
 		<Hero/>
-		<About/>
-		<Experience/>
-		<Technologies/>
-		<Proyects/>
-		<Contact/>
+		<div class="bg-[#0a0a0a]">
+			<About/>
+			<Experience/>
+			<Technologies/>
+			<Proyects/>
+			<Contact/>
+			<Footer/>
+		</div>
 	</main>
 </Layout>

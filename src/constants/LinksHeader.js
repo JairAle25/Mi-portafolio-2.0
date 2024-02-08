@@ -1,7 +1,7 @@
 const Links = [
     {
         name:"Inicio",
-        link:"#hero",
+        link:"#inicio",
 
     },
     {
