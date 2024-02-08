@@ -3,16 +3,81 @@ const classLabel ="text-lg";
 const classInput ="my-2 py-3 pl-3 text-lg rounded-lg outline-none border bg-transparent w-[100%]";
 ---
 
+
+<script>
+    import Swal from 'sweetalert2';
+    const formContact = document.getElementById("formContact") as HTMLFormElement;;
+
+    formContact.addEventListener('submit', function(e){
+        e.preventDefault();
+
+        const button = document.getElementById('btnEnviar') as HTMLButtonElement; // Realizar el casting a HTMLButtonElement
+        button.disabled = true;
+
+        const data = new FormData(formContact);
+        const apiKey = import.meta.env.PUBLIC_API_KEY;
+        const body = {
+        "sender": {
+            "name": "Contact Portafolio",
+            "email": "contactPortafolio@gmail.com"
+        },
+        "to": [
+            {
+                "email": "jaircornejo61@gmail.com", 
+                "name": "Jair Cornejo"
+            }
+        ],
+        "subject": "Contacto del Portafolio",
+        "htmlContent": `<h1 style="color:#6cace4">SE HA SOLICITADO CONTACTO</h1> 
+            <p>Nombre: <b>${data.get('nombre')}</b> </p>
+            <p>Email : <b>${data.get('email')}</b> </p>
+            <p>Mensaje: <b>${data.get('mensaje')}</b> </p>`
+    }
+
+
+        fetch('https://api.brevo.com/v3/smtp/email', {
+            method: 'POST',
+            headers: {
+                'api-key': apiKey,
+                'Content-Type': 'application/json'
+            },
+            body: JSON.stringify(body)
+        })
+        .then(response => response.json())
+        .then(data => {
+            console.log(data);
+            Swal.fire({
+                title: 'Formulario enviado!',
+                text: 'Pronto será contactado',
+                background: '#1f1f21',
+                confirmButtonColor: '#6068ff',
+                icon: 'success',
+                customClass: {
+                    title: 'text-white', 
+                    content: 'text-white', 
+                    confirmButton: 'flex-col',
+                    popup: 'flex-col',
+                }
+            });
+            formContact.reset();
+        })
+        .finally(() => {
+            button.disabled = false;
+        });
+    });
+</script>
+
+
 <section class="mt-56 my-0 mx-auto w-[60%] flex justify-center items-center flex-col scrollLink" id="contacto">
     <h1 class="font-bold text-6xl pb-10 text-[var(--colorPrincipal)]">¡Hablemos!</h1>
     <p class="text-lg">Si estás interesado en mi trabajo o tienes alguna inquietud, no dudes en escribirme!</p>
-    <form action="" class="flex flex-col justify-center items-start mt-6 bg-[#1f1f21] py-7 px-6 rounded-lg w-[40%]">
+    <form action="" id="formContact" class="flex flex-col justify-center items-start mt-6 bg-[#1f1f21] py-7 px-6 rounded-lg w-[40%]">
         <label for="" class={classLabel}>Tu nombre</label>
-        <input type="text" class={classInput} required placeholder="Nombre">
+        <input type="text" class={classInput} required placeholder="Nombre" name="nombre">
         <label for="" class={classLabel}>Tu E-mail</label>
-        <input type="email" class={classInput} required placeholder="ejemplo@email.com">
+        <input type="email" class={classInput} required placeholder="ejemplo@email.com" name="email">
         <label for="" class={classLabel}>Tu mensaje</label>
-        <textarea name="" id="" rows="5" class=`resize-none ${classInput}` placeholder="Hola...."></textarea>
-        <input type="submit" value="Enviar" class="text-lg bg-[var(--colorPrincipal)] px-7 py-1 rounded-lg transition-all duration-500 hover:bg-[var(--hoverColorPrincipal)] cursor-pointer w-full mt-3">
+        <textarea name="mensaje" id="" rows="5" class=`resize-none ${classInput}` placeholder="Hola...."></textarea>
+        <input type="submit" value="Enviar" class="text-lg bg-[var(--colorPrincipal)] px-7 py-1 rounded-lg transition-all duration-500 hover:bg-[var(--hoverColorPrincipal)] cursor-pointer w-full mt-3" id="btnEnviar">
     </form>
 </section>
