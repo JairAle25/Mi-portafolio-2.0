@@ -4,8 +4,8 @@ import technologies from "../constants/technologies.js"
 
 ---
 
-<section class="mt-56 my-0 mx-auto w-[65%] scrollLink" id="technologies">
-    <h1 class="font-bold text-4xl pb-10"><i class="bi bi-mouse2-fill"></i> Tecnologias</h1>
+<section class="mt-56 my-0 mx-auto xl:w-[65%] md:w-[85%] scrollLink" id="technologies">
+    <h1 class="font-bold pb-10 xl:text-4xl md:text-5xl"><i class="bi bi-mouse2-fill"></i> Tecnologias</h1>
     <div class="grid grid-cols-4 gap-4 place-items-center">
         {technologies.map(tech => (
             <ItemTechnologies key={tech.id} url={tech.url} name={tech.name} />

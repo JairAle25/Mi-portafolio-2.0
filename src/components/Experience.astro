@@ -4,8 +4,8 @@ import experience from "../constants/Experience.js"
 ---
 
 
-<section class="mt-56 my-0 mx-auto w-[65%] scrollLink" id="experiencia">
-    <h1 class="font-bold text-4xl pb-10"><i class="bi bi-pc-display"></i> Mi Experiencia</h1>
+<section class="mt-56 my-0 mx-auto xl:w-[65%] md:w-[85%] scrollLink" id="experiencia">
+    <h1 class="font-bold pb-10 xl:text-4xl md:text-5xl"><i class="bi bi-pc-display"></i> Mi Experiencia</h1>
     <ol class="relative border-s border-gray-200 dark:border-gray-700">
         {experience.map(exp => <ItemExperience title={exp.title} date={exp.date} description={exp.description} current={exp.current}/>)}
     </ol>
