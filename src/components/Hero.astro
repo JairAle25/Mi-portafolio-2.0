@@ -1,21 +1,21 @@
 ---
 import Button from "./Button.astro"
-const classLinksRedes = " border border-gray-400 rounded-lg py-1 px-4 font-semibold transition-all duration-300 xl:text-base md:text-lg";
+const classLinksRedes = " border border-gray-400 rounded-lg py-1 px-4 font-semibold transition-all duration-300 text-sm xl:text-base md:text-lg";
 ---
 
-<section class="flex flex-col justify-center items-center h-[90vh] text-center xl:w-full md:w-[90%] md:my-0 md:mx-auto">
+<section class="flex flex-col justify-center items-center h-screen text-center w-[90%] my-0 mx-auto xl:w-full ">
     <div>
-        <h1 class="font-bold pb-8 xl:text-7xl md:text-8xl">Hey , soy <span class="text-[var(--colorPrincipal)]">Jair Cornejo</span></h1>
+        <h1 class="font-bold pb-8 text-6xl xl:text-7xl md:text-8xl">Hey , soy <span class="text-[var(--colorPrincipal)]">Jair Cornejo</span></h1>
 
-        <p class="bg-gradient-to-r from-[#6a70f3] to-[#232540] py-1 my-0 mx-auto rounded-lg transition-all hover:font-bold xl:w-[31%] xl:hover:w-[35%] xl:text-base md:text-xl md:w-[42%] md:hover:w-[45%]">Disponible para trabajar</p>
+        <p class="bg-gradient-to-r from-[#6a70f3] to-[#232540] py-1 my-0 mx-auto rounded-lg transition-all hover:font-bold w-[70%] hover:w-[75%] text-sm xl:w-[31%] xl:hover:w-[35%] xl:text-base md:text-xl md:w-[42%] md:hover:w-[45%] ">Disponible para trabajar</p>
 
-        <p class="pt-4 pb-6 xl:text-xl md:text-2xl">Desarrollador web . De Buenos Aires, <br> Argentina . Especializado en crear apliaciones <br> unicas y elegantes</p>
+        <p class="pt-4 pb-6 text-lg xl:text-xl md:text-2xl">Desarrollador web . De Buenos Aires, <br> Argentina . Especializado en crear apliaciones <br> unicas y elegantes</p>
 
         <nav class="flex gap-4 justify-center items-center my-0">
 
             <Button text="Ver Proyectos" link="#proyectos"></Button>
 
-            <a href="/public/Jair_Cornejo_CV.pdf" download="Jair Cornejo CV" target="_blank" class="flex gap-2 rounded-lg border px-4 py-2 transition-all hover:text-slate-300 xl:text-lg md:text-xl"><i class="bi bi-download"></i>Descargar CV</a>
+            <a href="/public/Jair_Cornejo_CV.pdf" download="Jair Cornejo CV" target="_blank" class="flex gap-2 rounded-lg border px-4 py-2 transition-all hover:text-slate-300 text-sm xl:text-lg md:text-xl"><i class="bi bi-download"></i>Descargar CV</a>
 
         </nav>
 
