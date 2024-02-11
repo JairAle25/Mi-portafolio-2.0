@@ -38,7 +38,7 @@ const proyects = [
         description:"Descubre la emoción del clásico juego de estrategia con mi creación: el Conecta 4. Sumérgete en la diversión competitiva mientras planificas tus movimientos para alinear cuatro fichas antes que tu oponente. Disfruta de la simplicidad del juego, pero con la estrategia desafiante que lo convierte en un verdadero clásico.",
         urlImage:"/ProyectsImages/conecta4.webp",
         technologies:[TagsTech.HTML,TagsTech.CSS,TagsTech.JAVASCRIPT,TagsTech.REACT],
-        linkPagina:"conecta-4-jair.netlify.app",
+        linkPagina:"https://conecta-4-jair.netlify.app",
         linkRepositorio:"https://github.com/JairAle25/Conecta-4"
     },
     {
