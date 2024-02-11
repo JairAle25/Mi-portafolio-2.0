@@ -59,7 +59,7 @@ const proyects = [
     },
     {
         title:"Calculadora",
-        description:"Introduzco mi proyecto de calculadora, una herramienta diseñada para simplificar tus operaciones matemáticas diarias. Con una interfaz intuitiva, esta calculadora proporciona una experiencia de usuario fácil y accesible. Realiza operaciones básicas y avanzadas con facilidad, convirtiéndose en una herramienta práctica para tus necesidades de cálculo.",
+        description:"Mi proyecto de calculadora es una herramienta diseñada para simplificar tus operaciones matemáticas diarias. Con una interfaz intuitiva, esta calculadora proporciona una experiencia de usuario fácil y accesible. Realiza operaciones básicas y avanzadas con facilidad, convirtiéndose en una herramienta práctica para tus necesidades de cálculo.",
         urlImage:"/ProyectsImages/calculadora.webp",
         technologies:[TagsTech.HTML,TagsTech.CSS,TagsTech.JAVASCRIPT,TagsTech.REACT],
         linkPagina:"https://calculadora-jc.netlify.app/",
