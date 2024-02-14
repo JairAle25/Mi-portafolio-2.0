@@ -6,7 +6,7 @@ import Links from "../constants/LinksHeader.js"
 <header class="flex items-center text-lg justify-around py-4 fixed z-10 backdrop-blur-sm w-full xl:py-6 xl:justify-center">
     <img src="/logoFooter.png" alt="" class="xl:hidden md:w-[7%] w-[9%]">
     <i class="bi bi-list text-3xl block cursor-pointer transition-all duration-200 xl:hidden md:text-4xl" id="list"></i>
-    <nav class="absolute top-0 left-0 right-0 bottom-0 -z-10 flex flex-col items-center justify-center ml-auto bg-[rgb(10,10,10,0.95)] gap-12 transition-all opacity-0 w-full h-screen md:w-2/3 xl:bg-transparent xl:flex-row xl:gap-10 xl:static xl:h-auto xl:w-full xl:opacity-100" id="links">
+    <nav class="absolute top-0 left-0 right-0 bottom-0 -z-10 flex flex-col items-center justify-center ml-auto bg-[rgb(10,10,10,0.95)] gap-12 transition-all opacity-0 pointer-events-none w-full h-screen md:w-2/3 xl:bg-transparent xl:flex-row xl:gap-10 xl:static xl:h-auto xl:w-full xl:opacity-100" id="links">
         {Links.slice(0, -1).map(link=><a href={link.link} class="transition-all hover:text-slate-300 text-xl md:text-2xl xl:text-lg linkH">{link.name}</a>)}
         <Button text={Links[Links.length - 1].name} link={Links[Links.length - 1].link} tipo="header"></Button>
     </nav>
