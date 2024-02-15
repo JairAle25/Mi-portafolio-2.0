@@ -6,7 +6,7 @@ const classNameLinks = "border border-gray-500 rounded-xl px-3 py-1 transition-a
 
 <div class="flex flex-col min-w-[95%] xl:w-[65%] xl:min-w-[65%] md:w-[90%] md:min-w-[87%]">
     <h1 class="text-[var(--colorPrincipal)] font-bold text-2xl xl:text-3xl md:text-4xl">{title}</h1>
-    <p class=" py-2 xl:text-base md:text-xl">{description}</p>
+    <p class=" py-2 text-lg text-white xl:text-base md:text-xl">{description}</p>
     <div class="grid grid-cols-2 xl:grid-cols-4 md:grid-cols-4 gap-4 place-items-center mb-3">
         {tags.map(tag => <Pill className={tag.className} url={tag.url} name={tag.name}/>)}
     </div>
