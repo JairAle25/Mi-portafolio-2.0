@@ -14,10 +14,6 @@ Bienvenido a mi portafolio, un espacio donde comparto información sobre mí, mi
 - [Experiencia](https://portafolio-jair.netlify.app/#experiencia)
 - [Tecnologías](https://portafolio-jair.netlify.app/#technologies)
 
-## Sobre Mí
-
-Aquí puedes proporcionar una breve descripción sobre ti, tus intereses, y cualquier otra información relevante.
-
 ## Tecnologías
 
 Enumera las tecnologías que manejas y que se muestran en tu portafolio.
