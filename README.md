@@ -16,8 +16,6 @@ Bienvenido a mi portafolio, un espacio donde comparto información sobre mí, mi
 
 ## Tecnologías
 
-Enumera las tecnologías que manejas y que se muestran en tu portafolio.
-
 - Astro <img src="https://seeklogo.com/images/A/astro-icon-logo-44253BACEE-seeklogo.com.png"  width="15">
 - Tailwind CSS  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Tailwind_CSS_Logo.svg/320px-Tailwind_CSS_Logo.svg.png" alt="" width="30">
 - Otras tecnologías...
