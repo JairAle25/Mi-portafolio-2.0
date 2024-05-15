@@ -27,7 +27,7 @@ const TagsTech ={
     NEXT_JS:{
         name:"Next Js",
         url:"/iconosTecnologias/next.webp",
-        className:"bg-[#63503c] text-black"
+        className:"bg-[#151718] text-white"
     },
     TAILWIND:{
         name:"Tailwind",
