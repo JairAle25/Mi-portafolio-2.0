@@ -2,6 +2,14 @@ import TagsTech from "./tagsTech";
 
 const proyects = [
     {
+        title:"Star Wars Proyect",
+        description:"Mi proyecto de programación es una aplicación web que utiliza la API de Star Wars para mostrar información sobre personajes y películas de la saga. Los usuarios pueden explorar datos detallados sobre sus héroes favoritos y aprender más sobre las películas que los hicieron legendarios en el universo de Star Wars.",
+        urlImage:"/ProyectsImages/starWarsProyects.webp",
+        technologies:[TagsTech.NEXT_JS,TagsTech.TAILWIND],
+        linkPagina:"https://star-wars-proyect-jair.netlify.app/",
+        linkRepositorio:"https://github.com/JairAle25/StarWarsProyect"
+    },
+    {
         title:"Mi Portafolio",
         description:"Explora mi mundo a través de mi portafolio, donde convergen mi pasión, habilidades y proyectos destacados. Descubre quién soy, lo que sé hacer y sumérgete en los proyectos que han dado forma a mi trayectoria. Desde desarrollo web hasta diseño creativo, cada proyecto cuenta una historia única de dedicación y excelencia.",
         urlImage:"/ProyectsImages/portafolio.webp",
