@@ -28,36 +28,41 @@ const technologies = [
     },
     {
         id:6,
+        url:TagsTech.NEXT_JS.url,
+        name:TagsTech.NEXT_JS.name
+    },
+    {
+        id:7,
         url:TagsTech.TAILWIND.url,
         name:TagsTech.TAILWIND.name
     },
     {
-        id:7,
+        id:8,
         url:TagsTech.BOOTSTRAP.url,
         name:TagsTech.BOOTSTRAP.name
     },
     {
-        id:8,
+        id:9,
         url:TagsTech.MYSQL.url,
         name:TagsTech.MYSQL.name
     },
     {
-        id:9,
+        id:10,
         url:TagsTech.JAVA.url,
         name:TagsTech.JAVA.name
     },
     {
-        id:10,
+        id:11,
         url:TagsTech.CSHARP.url,
         name:TagsTech.CSHARP.name
     },
     {
-        id:11,
+        id:12,
         url:TagsTech.NET.url,
         name:TagsTech.NET.name
     },
     {
-        id:12,
+        id:13,
         url:TagsTech.CMAS.url,
         name:TagsTech.CMAS.name
     }
