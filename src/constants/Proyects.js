@@ -5,7 +5,7 @@ const proyects = [
         title:"Star Wars Proyect",
         description:"Mi proyecto de programación es una aplicación web que utiliza la API de Star Wars para mostrar información sobre personajes y películas de la saga. Los usuarios pueden explorar datos detallados sobre sus héroes favoritos y aprender más sobre las películas que los hicieron legendarios en el universo de Star Wars.",
         urlImage:"/ProyectsImages/starWarsProyects.webp",
-        technologies:[TagsTech.NEXT_JS,TagsTech.TAILWIND],
+        technologies:[TagsTech.NEXT_JS,TagsTech.TAILWIND,TagsTech.NODE_JS],
         linkPagina:"https://star-wars-proyect-jair.netlify.app/",
         linkRepositorio:"https://github.com/JairAle25/StarWarsProyect"
     },

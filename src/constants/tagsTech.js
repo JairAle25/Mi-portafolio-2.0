@@ -29,6 +29,11 @@ const TagsTech ={
         url:"/iconosTecnologias/next.webp",
         className:"bg-[#151718] text-white"
     },
+    NODE_JS:{
+        name:"Node Js",
+        url:"/iconosTecnologias/node.webp",
+        className:"bg-[#043c15] text-black"
+    },
     TAILWIND:{
         name:"Tailwind",
         url:"/iconosTecnologias/Tailwind.webp",
