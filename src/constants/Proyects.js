@@ -5,7 +5,7 @@ const proyects = [
         title:"Star Wars Proyect",
         description:"Mi proyecto de programación es una aplicación web que utiliza la API de Star Wars para mostrar información sobre personajes y películas de la saga. Los usuarios pueden explorar datos detallados sobre sus héroes favoritos y aprender más sobre las películas que los hicieron legendarios en el universo de Star Wars.",
         urlImage:"/ProyectsImages/starWarsProyects.webp",
-        technologies:[TagsTech.NEXT_JS,TagsTech.TAILWIND,TagsTech.NODE_JS],
+        technologies:[TagsTech.NEXT_JS,TagsTech.TAILWIND],
         linkPagina:"https://star-wars-proyect-jair.netlify.app/",
         linkRepositorio:"https://github.com/JairAle25/StarWarsProyect"
     },
@@ -26,20 +26,12 @@ const proyects = [
         linkRepositorio:"https://github.com/JairAle25/TaskList-Proyect"
     },
     {
-        title:"Clases Particulares",
-        description:"En mi proyecto, he desarrollado una página dedicada a simplificar la gestión de clases particulares de programación para mis alumnos. En ella, encontrarás información detallada sobre las clases ofrecidas, horarios disponibles y un sistema eficiente de reserva. La página está diseñada pensando en la comodidad y eficacia, permitiendo a mis alumnos enfocarse en su aprendizaje.",
-        urlImage:"/ProyectsImages/clasesParticulares.webp",
-        technologies:[TagsTech.HTML,TagsTech.CSS,TagsTech.JAVASCRIPT],
-        linkPagina:"https://jairale25.github.io/ClasesParticulares/",
-        linkRepositorio:"https://github.com/JairAle25/ClasesParticulares"
-    },
-    {
-        title:"JcCodeWeb - Cursos Online",
-        description:"Mi proyecto se centra en la promoción y oferta de cursos de programación. Aquí, los estudiantes pueden acceder a una variedad de cursos diseñados para todos los niveles de habilidad, desde principiantes hasta avanzados. Ofrezco lecciones interactivas, proyectos prácticos y un espacio para que los entusiastas de la programación amplíen sus habilidades.",
-        urlImage:"/ProyectsImages/JcCodeWeb.webp",
+        title:"Calculadora",
+        description:"Mi proyecto de calculadora es una herramienta diseñada para simplificar tus operaciones matemáticas diarias. Con una interfaz intuitiva, esta calculadora proporciona una experiencia de usuario fácil y accesible. Realiza operaciones básicas y avanzadas con facilidad, convirtiéndose en una herramienta práctica para tus necesidades de cálculo.",
+        urlImage:"/ProyectsImages/calculadora.webp",
         technologies:[TagsTech.HTML,TagsTech.CSS,TagsTech.JAVASCRIPT,TagsTech.REACT],
-        linkPagina:"https://jccodeweb.netlify.app/",
-        linkRepositorio:"https://github.com/JairAle25/JcCodeWeb"
+        linkPagina:"https://calculadora-jc.netlify.app/",
+        linkRepositorio:"https://github.com/JairAle25/Calculadora"
     },
     {
         title:"Conecta 4",
@@ -58,20 +50,28 @@ const proyects = [
         linkRepositorio:"https://github.com/JairAle25/Ta-Te-Ti"
     },
     {
+        title:"Clases Particulares",
+        description:"En mi proyecto, he desarrollado una página dedicada a simplificar la gestión de clases particulares de programación para mis alumnos. En ella, encontrarás información detallada sobre las clases ofrecidas, horarios disponibles y un sistema eficiente de reserva. La página está diseñada pensando en la comodidad y eficacia, permitiendo a mis alumnos enfocarse en su aprendizaje.",
+        urlImage:"/ProyectsImages/clasesParticulares.webp",
+        technologies:[TagsTech.HTML,TagsTech.CSS,TagsTech.JAVASCRIPT],
+        linkPagina:"https://jairale25.github.io/ClasesParticulares/",
+        linkRepositorio:"https://github.com/JairAle25/ClasesParticulares"
+    },
+    {
+        title:"JcCodeWeb - Cursos Online",
+        description:"Mi proyecto se centra en la promoción y oferta de cursos de programación. Aquí, los estudiantes pueden acceder a una variedad de cursos diseñados para todos los niveles de habilidad, desde principiantes hasta avanzados. Ofrezco lecciones interactivas, proyectos prácticos y un espacio para que los entusiastas de la programación amplíen sus habilidades.",
+        urlImage:"/ProyectsImages/JcCodeWeb.webp",
+        technologies:[TagsTech.HTML,TagsTech.CSS,TagsTech.JAVASCRIPT,TagsTech.REACT],
+        linkPagina:"https://jccodeweb.netlify.app/",
+        linkRepositorio:"https://github.com/JairAle25/JcCodeWeb"
+    },
+    {
         title:"Pokedex",
         description:"Presento mi proyecto de Pokedex, una herramienta interactiva que te permite explorar el fascinante mundo de los Pokémon. Simplemente elige un tipo, como fuego, y descubre una lista completa de Pokémon de ese tipo, junto con sus estadísticas. Esta Pokedex proporciona una visión completa y estructurada para los amantes de Pokémon.",
         urlImage:"/ProyectsImages/pokedex.webp",
         technologies:[TagsTech.HTML,TagsTech.CSS,TagsTech.JAVASCRIPT],
         linkPagina:"https://jairale25.github.io/Proyecto-Pokemon",
         linkRepositorio:"https://github.com/JairAle25/Proyecto-Pokemon"
-    },
-    {
-        title:"Calculadora",
-        description:"Mi proyecto de calculadora es una herramienta diseñada para simplificar tus operaciones matemáticas diarias. Con una interfaz intuitiva, esta calculadora proporciona una experiencia de usuario fácil y accesible. Realiza operaciones básicas y avanzadas con facilidad, convirtiéndose en una herramienta práctica para tus necesidades de cálculo.",
-        urlImage:"/ProyectsImages/calculadora.webp",
-        technologies:[TagsTech.HTML,TagsTech.CSS,TagsTech.JAVASCRIPT,TagsTech.REACT],
-        linkPagina:"https://calculadora-jc.netlify.app/",
-        linkRepositorio:"https://github.com/JairAle25/Calculadora"
     }
 ]
 

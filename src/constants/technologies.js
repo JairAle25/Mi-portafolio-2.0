@@ -53,23 +53,13 @@ const technologies = [
     },
     {
         id:11,
-        url:TagsTech.JAVA.url,
-        name:TagsTech.JAVA.name
-    },
-    {
-        id:12,
         url:TagsTech.CSHARP.url,
         name:TagsTech.CSHARP.name
     },
     {
-        id:13,
+        id:12,
         url:TagsTech.NET.url,
         name:TagsTech.NET.name
-    },
-    {
-        id:14,
-        url:TagsTech.CMAS.url,
-        name:TagsTech.CMAS.name
     }
 ]
 
