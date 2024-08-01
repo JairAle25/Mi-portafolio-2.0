@@ -47,7 +47,7 @@ const TagsTech ={
     MYSQL:{
         name:"MySql",
         url:"/iconosTecnologias/MySQL.webp",
-        className:""
+        className:"bg-[#151718]"
     },
     JAVA:{
         name:"Java",
@@ -68,6 +68,11 @@ const TagsTech ={
         name:"C++",
         url:"/iconosTecnologias/cmas.webp",
         className:""
+    },
+    EXPRESS:{
+        name:"Express",
+        url:"/iconosTecnologias/express.webp",
+        className:"bg-[#14485f]"
     }
 }
 

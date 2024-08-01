@@ -2,10 +2,18 @@ import TagsTech from "./tagsTech";
 
 const proyects = [
     {
+        title:"Pet Shop",
+        description:"Este proyecto es el resultado final del curso de Full Stack en Node.js. Se trata de una plataforma de comercio electrónico especializada en la compra y venta de productos para animales. La aplicación permite explorar una amplia variedad de productos, agregar artículos a su carrito de compras y realizar pagos de manera segura.",
+        urlImage:"/ProyectsImages/petShop.webp",
+        technologies:[TagsTech.HTML,TagsTech.CSS,TagsTech.JAVASCRIPT,TagsTech.NODE_JS,TagsTech.EXPRESS,TagsTech.MYSQL],
+        linkPagina:"https://petshop.alwaysdata.net/index.html",
+        linkRepositorio:"https://github.com/nicolas-rizzo/pet-shop"
+    },
+    {
         title:"Star Wars Proyect",
         description:"Mi proyecto de programación es una aplicación web que utiliza la API de Star Wars para mostrar información sobre personajes y películas de la saga. Los usuarios pueden explorar datos detallados sobre sus héroes favoritos y aprender más sobre las películas que los hicieron legendarios en el universo de Star Wars.",
         urlImage:"/ProyectsImages/starWarsProyects.webp",
-        technologies:[TagsTech.NEXT_JS,TagsTech.TAILWIND],
+        technologies:[TagsTech.REACT,TagsTech.NEXT_JS,TagsTech.TAILWIND],
         linkPagina:"https://star-wars-proyect-jair.netlify.app/",
         linkRepositorio:"https://github.com/JairAle25/StarWarsProyect"
     },

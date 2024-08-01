@@ -38,26 +38,31 @@ const technologies = [
     },
     {
         id:8,
+        url:TagsTech.EXPRESS.url,
+        name:TagsTech.EXPRESS.name
+    },
+    {
+        id:9,
         url:TagsTech.TAILWIND.url,
         name:TagsTech.TAILWIND.name
     },
     {
-        id:9,
+        id:10,
         url:TagsTech.BOOTSTRAP.url,
         name:TagsTech.BOOTSTRAP.name
     },
     {
-        id:10,
+        id:11,
         url:TagsTech.MYSQL.url,
         name:TagsTech.MYSQL.name
     },
     {
-        id:11,
+        id:12,
         url:TagsTech.CSHARP.url,
         name:TagsTech.CSHARP.name
     },
     {
-        id:12,
+        id:13,
         url:TagsTech.NET.url,
         name:TagsTech.NET.name
     }
